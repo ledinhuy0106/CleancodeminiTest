@@ -10,8 +10,8 @@ public class Main {
     public static void main(String[] args) {
 
         PersonManager personManager = new PersonManager();
-        personManager.add(new Student("Hoàng Việt", 27, 3, 100));
-        personManager.add(new Teacher("Hoàng Việt", 27, 3, "Toán"));
+        personManager.add(new Student("Uy", 18, 3, 100));
+        personManager.add(new Teacher("Uy Lê", 18, 3, "Toán"));
         personManager.print();
         Scanner scanner = new Scanner(System.in);
         int choice = -1;
