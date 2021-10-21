@@ -12,7 +12,4 @@ public interface PersonService<T> {
     void print();
 
     void sort();
-
-    double sumScore();
-
 }
