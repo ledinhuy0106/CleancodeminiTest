@@ -66,10 +66,4 @@ public class PersonManager implements PersonService<Person>  {
     public void sort() {
     people.sort((Comparator.comparingInt(Person::getCode)));
     }
-
-    @Override
-    public double sumScore() {
-
-        return 0;
-    }
 }
