@@ -8,10 +8,6 @@ import java.util.Comparator;
 public class PersonManager implements PersonService<Person>  {
     private ArrayList<Person> people;
 
-    public PersonManager(ArrayList<Person> people) {
-        this.people = people;
-    }
-
     public PersonManager() {
         people = new ArrayList<>();
     }
