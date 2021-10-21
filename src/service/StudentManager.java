@@ -24,7 +24,7 @@ public class StudentManager extends PersonManager {
         this.listStudent = listStudent;
     }
 
-    public int totalAverage () {
+    public int totalScores () {
         for (int i = 0; i < listStudent.size(); i++) {
             sum += listStudent.get(i).getScore();
         }
